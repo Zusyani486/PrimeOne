@@ -1,0 +1,34 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+// font-family:'Bebas', sans-serif;
+// font-weight: 400;
+}
+
+.container{
+    max-width: 880px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-fluid{
+    max-width: 1366px;
+    margin: 0 auto;
+    width: 100%;
+}
